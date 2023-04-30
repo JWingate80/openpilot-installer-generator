@@ -38,7 +38,7 @@ $branch = substr(trim($branch), 0, 255);  # max GH branch
 $branch = $branch == "_" ? "" : $branch;
 $loading_msg = substr(trim($loading_msg), 0, 39);
 $supplied_loading_msg = $loading_msg != "";  # to print secret message
-$repo_name = "openpilot";  # TODO: repo name not yet supported for installation
+$repo_name = "sunnypilot";  # TODO: repo name not yet supported for installation
 
 class Alias {
     public $name, $default_branch, $aliases, $repo, $loading_msg;
