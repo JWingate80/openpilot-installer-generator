@@ -9,7 +9,7 @@ define("IS_WGET", str_contains(USER_AGENT, "Wget"));
 # Use release2 if NEOS, else release3 (careful! wget assumes comma three)
 define("DEFAULT_STOCK_BRANCH", IS_NEOS ? "release2" : "release3");
 
-define("WEBSITE_URL", "https://smiskol.com");
+define("WEBSITE_URL", "https://openpilot-installer.herokuapp.com/");
 define("BASE_DIR", "/" . basename(__DIR__));
 
 function logData() {
