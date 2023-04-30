@@ -6,7 +6,7 @@ echo '<head>
 
 echo '<html>
     <body>
-    <h5>Or enter this URL on the setup screen on your device.</h5>
+    <h5>This is a test page and it works.</h5>
     </body>
 </html>';
 ?>
